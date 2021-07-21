@@ -10,3 +10,10 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+/* ===================================
+        Navbar Section
+======================================*/
+.navbar-brand h2 {
+    margin-top: 4px;
+}
