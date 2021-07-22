@@ -72,6 +72,27 @@ body {
     /* color: #fff; */
 }
 
+.products-image {
+    border-radius: 24px;
+    padding: 16px;
+}
+
+.hamba-card {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgrey;
+}
+/* 
+.card-info {
+    display: none;
+    position: absolute;
+}
+
+.hov:hover .card-body {
+    display: block;
+    background-color: rgb(230, 215, 179, 0.4);
+    opacity: 1;
+} */
+
 /* ================================
         Footer section
 ===================================*/
