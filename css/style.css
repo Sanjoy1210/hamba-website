@@ -31,7 +31,7 @@ body {
 
 .animate__animated.animate__fadeInUp {
     animation-duration: 3s;
-  }
+}
 .carousel-item img {
     max-height: 660px;
     object-fit: cover;
