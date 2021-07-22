@@ -21,14 +21,10 @@ body {
 /* ===================================
         Hero Section
 ======================================*/
-/* .carousel-item img {
-    max-height: 600px;
-} */
-
 .info {
     position: absolute;
     top: 150px;
-    left: 65px;
+    left: 80px;
     font-weight: 700;
     font-size: 85px;
 }
@@ -38,13 +34,9 @@ body {
   }
 .carousel-item img {
     max-height: 660px;
-    /* object-fit: cover; */
+    object-fit: cover;
 }
 
-.banner-image img {
-    max-height: 660px;
-    /* object-fit: cover; */
-}
 
 /* ================================
         Category section
