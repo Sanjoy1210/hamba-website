@@ -56,20 +56,38 @@ body {
 /* ================================
         Category section
 ===================================*/
+.category {
+    width: 100%;
+    padding: 25px 20px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.category-image img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.category h4 {
+    font-weight: 700;
+}
+.category:hover {
+    background-color: #fceae8;
+}
 .hamba-buy-now-btn {
     background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
     color: #fff;
     border: transparent;
     border-radius: 8px;
     padding: 9px 25px;
-    transition: 0.2s linear;
+    transition: 0.4s ease-in-out;
 }
 
 .hamba-buy-now-btn:hover {
-    /* transform: scale(1.01); */
-    background-image: none;
-    border: 1px solid #FF136F;
-    /* color: #fff; */
+    transform: scale(1.05);
+    color: #fff;
 }
 
 .products-image {
@@ -81,17 +99,25 @@ body {
     border-radius: 10px;
     box-shadow: 5px 5px 10px lightgrey;
 }
-/* 
-.card-info {
-    display: none;
-    position: absolute;
+
+.carousel-item img {
+    height: 700px;
+    object-fit: cover;
 }
 
-.hov:hover .card-body {
-    display: block;
-    background-color: rgb(230, 215, 179, 0.4);
-    opacity: 1;
-} */
+/* ================================
+        Payment Section
+===================================*/
+.pay-now-btn {
+    border: 2px solid #FF136F;
+    transition: 0.4s ease-in-out;
+    color: #FF136F;
+}
+
+.pay-now-btn:hover {
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+}
 
 /* ================================
         Footer section
