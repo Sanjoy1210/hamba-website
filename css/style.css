@@ -52,3 +52,41 @@ body {
     /* max-height: 660px; */
     object-fit: cover;
 }
+
+/* ================================
+        Category section
+===================================*/
+.hamba-buy-now-btn {
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: transparent;
+    border-radius: 8px;
+    padding: 9px 25px;
+    transition: 0.2s linear;
+}
+
+.hamba-buy-now-btn:hover {
+    /* transform: scale(1.01); */
+    background-image: none;
+    border: 1px solid #FF136F;
+    /* color: #fff; */
+}
+
+/* ================================
+        Footer section
+===================================*/
+.contact a {
+    color: #fff;
+}
+.fa-facebook {
+    color: #097BEA;
+}
+.fa-twitter {
+    color: #5DA9DD;
+}
+.fa-youtube {
+    color: #FE0000;
+}
+.fa-dribbble {
+    color: #E04B86;
+}
